@@ -43,6 +43,21 @@ The correlation coefficient has the following formula:
 
 You can learn more about the mathematical definition and geometric interpretation of correlation here: https://www.youtube.com/watch?v=xZ_z8KWkhXE
 
+### Optimizer
+
+Next, we need a strategy to modify weights `w` and `b` to reduce the loss and improve the "fit" of the line to the data.
+
+* Ordinary Least Squares: https://www.youtube.com/watch?v=szXbuO3bVRk (better for smaller datasets)
+* Stochastic gradient descent: https://www.youtube.com/watch?v=sDv4f4s2SB8 (better for larger datasets)
+
+Both of these have the same objective: to minimize the loss, however, while ordinary least squares directly computes the best values for `w` and `b` using matrix operations, while gradient descent uses a iterative approach, starting with a random values of `w` and `b` and slowly improving them using derivatives. 
+
+Here's a visualization of how gradient descent works:
+
+![](https://miro.medium.com/max/1728/1*NO-YvpHHadk5lLxtg4Gfrw.gif)
+
+Doesn't it look similar to our own strategy of gradually moving the line closer to the points?
+
 ## 📊 Dataset
 - The dataset consists of **1,338 records** with the following columns:
   - `age` - Age of the individual
