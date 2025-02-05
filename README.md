@@ -3,6 +3,19 @@
 ## 📌 Overview
 This project applies **Linear Regression** to predict **medical insurance charges** based on a patient’s characteristics such as **age, BMI, smoking habits, and region**. By analyzing these features, the model estimates medical expenses, helping insurers and healthcare providers understand cost patterns.
 
+
+Every machine learning problem has three components:
+
+1. **Model**
+
+2. **Cost Function**
+
+3. **Optimizer**
+
+We'll look at several examples of each of the above in future tutorials. Here's how the relationship between these three components can be visualized:
+
+<img src="https://i.imgur.com/oiGQFJ9.png" width="480">
+
 ## 📊 Dataset
 - The dataset consists of **1,338 records** with the following columns:
   - `age` - Age of the individual
