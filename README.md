@@ -12,9 +12,36 @@ Every machine learning problem has three components:
 
 3. **Optimizer**
 
-We'll look at several examples of each of the above in future tutorials. Here's how the relationship between these three components can be visualized:
+The relationship between these three components can be visualized:
 
 <img src="https://i.imgur.com/oiGQFJ9.png" width="480">
+
+Here's how correlation coefficients can be interpreted ([source](https://statisticsbyjim.com/basics/correlations)):
+
+* **Strength**: The greater the absolute value of the correlation coefficient, the stronger the relationship.
+
+    * The extreme values of -1 and 1 indicate a perfectly linear relationship where a change in one variable is accompanied by a perfectly consistent change in the other. For these relationships, all of the data points fall on a line. In practice, you won’t see either type of perfect relationship.
+
+    * A coefficient of zero represents no linear relationship. As one variable increases, there is no tendency in the other variable to either increase or decrease.
+    
+    * When the value is in-between 0 and +1/-1, there is a relationship, but the points don’t all fall on a line. As r approaches -1 or 1, the strength of the relationship increases and the data points tend to fall closer to a line.
+
+
+* **Direction**: The sign of the correlation coefficient represents the direction of the relationship.
+
+    * Positive coefficients indicate that when the value of one variable increases, the value of the other variable also tends to increase. Positive relationships produce an upward slope on a scatterplot.
+    
+    * Negative coefficients represent cases when the value of one variable increases, the value of the other variable tends to decrease. Negative relationships produce a downward slope.
+
+Here's the same relationship expressed visually ([source](https://www.cuemath.com/data/how-to-calculate-correlation-coefficient/)):
+
+<img src="https://i.imgur.com/3XUpDlw.png" width="360">
+
+The correlation coefficient has the following formula:
+
+<img src="https://i.imgur.com/unapugP.png" width="360">
+
+You can learn more about the mathematical definition and geometric interpretation of correlation here: https://www.youtube.com/watch?v=xZ_z8KWkhXE
 
 ## 📊 Dataset
 - The dataset consists of **1,338 records** with the following columns:
